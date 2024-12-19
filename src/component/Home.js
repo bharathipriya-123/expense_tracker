@@ -2,7 +2,6 @@
 import React from "react";
 import { useState } from "react";
 import { useEffect } from "react";
-import { useRef } from "react";
 import ExpenseList from "./ExpenseList";
 import ExpenseForm from "./ExpenseForm";
 import '../style/Home.css'
