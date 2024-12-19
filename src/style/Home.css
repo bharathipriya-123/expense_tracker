@@ -1,0 +1,153 @@
+
+
+/* .App
+{
+ border:1px solid black;
+ height:50vh;
+ width:500px;
+ margin-left:550px;
+ margin-top:150px;
+ 
+}
+h1{
+ color:black;
+ text-shadow:cadetblue
+} */
+
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    color: #333;
+    line-height: 1.6;
+  }
+  
+  .App {
+    max-width: 800px;
+    height:100vh;
+    margin: 2rem auto;
+    padding: 1rem;
+    background: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1 {
+    font-size: 2rem;
+    text-align: center;
+    color: #007bff;
+    margin-bottom: 1rem;
+  }
+  
+  button {
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  button:disabled {
+    background-color: #cccccc;
+    cursor: not-allowed;
+  }
+  
+  button + button {
+    margin-left: 1rem;
+  }
+  
+ 
+  .ExpenseList {
+    margin-top: 1rem;
+  }
+  
+  .ExpenseList-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #f1f1f1;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    margin-bottom: 0.5rem;
+  }
+  
+  .ExpenseList-item:nth-child(odd) {
+    background: #e9ecef;
+  }
+  
+  .ExpenseList-item span {
+    flex: 1;
+    margin-right: 1rem;
+  }
+  
+  .ExpenseList-item button {
+    background-color: #dc3545;
+  }
+  
+  .ExpenseList-item button:hover {
+    background-color: #c82333;
+  }
+  
+
+  .modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .modal-content {
+    background: #fff;
+    padding: 1.5rem;
+    border-radius: 8px;
+    width: 90%;
+    max-width: 500px;
+    position: relative;
+  }
+  
+  .modal-content h2 {
+    margin-top: 0;
+  }
+  
+  .modal-content button {
+    margin-top: 1rem;
+  }
+  
+  
+  .ExpenseForm {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .ExpenseForm label {
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+  }
+  
+  .ExpenseForm input,
+  .ExpenseForm textarea {
+    padding: 0.5rem;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 1rem;
+  }
+  
+  .ExpenseForm button {
+    align-self: flex-end;
+  }
+  
